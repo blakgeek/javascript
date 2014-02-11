@@ -2,7 +2,7 @@
 
 *A mostly reasonable approach to JavaScript*
 
-*Forked and slightly modified from Airbnb's Style Guide, but still reasonable*
+*Airbnb's Style Guide begat Grooveshark's Style Guide which begat this style guide, it has been slightly modified but it's still reasonable*
 
 
 ## <a name='TOC'>Table of Contents</a>
