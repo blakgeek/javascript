@@ -1,4 +1,4 @@
-# Grooveshark JavaScript Style Guide() {
+# Blakgeek's JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
 
@@ -1008,17 +1008,9 @@
     this._firstName = 'Panda';
     ```
 
-  - When saving a reference to `this` use `_this`.
+  - When saving a reference to `this` use `self`.
 
     ```javascript
-    // bad
-    function() {
-        var self = this;
-        return function() {
-            console.log(self);
-        };
-    }
-
     // bad
     function() {
         var that = this;
@@ -1029,12 +1021,11 @@
 
     // good
     function() {
-        var _this = this;
+        var self = this;
         return function() {
-            console.log(_this);
+            console.log(self);
         };
-    }
-    ```
+    }    ```
 
   - Name your functions. This is helpful for stack traces.
 
